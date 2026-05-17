@@ -17,7 +17,7 @@ Event-based GA4 export with nested RECORD fields: `event_params`, `user_properti
 
 ## Part 1 — Funnel Analysis
 
-**File:** `funnel_analysis/funnel_queries.sql`
+**File:** `BigQuery_GA4_Funnel_Analysis.sql`
 
 Three queries covering the full analytical pipeline from raw event extraction to conversion analysis.
 
@@ -61,7 +61,7 @@ Top results from 2020 data:
 
 ## Part 2 — GA4 Data Exploration
 
-**File:** `ga4_data_exploration/data_exploration.sql`
+**File:** `BQ_GA4.sql`
 
 Ten queries exploring GA4's nested data structure on `events_20210131` and `events_2021*`.
 
