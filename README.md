@@ -58,6 +58,7 @@ Top results from 2020 data:
 | /Google+Redesign/Apparel/Womens | 907 | 45 | 5.0% |
 
 `/basket.html` is the primary drop-off point in the funnel — highest session volume with significantly lower conversion than checkout pages.
+[![View SQL](https://img.shields.io/badge/View%20SQL-4285F4?style=flat&logo=google-cloud&logoColor=white)](https://github.com/mazovetskikh/bigquery-ga4-analysis/blob/main/BigQuery_GA4_Funnel_Analysis.sql)
 
 ## Part 2 — GA4 Data Exploration
 
@@ -78,6 +79,7 @@ Ten queries exploring GA4's nested data structure on `events_20210131` and `even
 | 10 | First event per session using `ROW_NUMBER OVER (PARTITION BY user, session)` |
 
 Query 10 identifies the most frequent session-starting event across all sessions on `events_20210131`.
+[![View SQL](https://img.shields.io/badge/View%20SQL-4285F4?style=flat&logo=google-cloud&logoColor=white)](https://github.com/mazovetskikh/bigquery-ga4-analysis/blob/main/BQ_GA4.sql)
 
 ## Key Techniques
 
