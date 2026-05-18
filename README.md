@@ -1,4 +1,4 @@
-# BigQuery + GA4 Analysis
+# BigQuery | GA4 Analysis
 
 [![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=google-cloud&logoColor=white)](https://cloud.google.com/bigquery)
 [![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white)](https://cloud.google.com/bigquery/docs/reference/standard-sql)
